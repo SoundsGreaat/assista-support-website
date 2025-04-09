@@ -534,6 +534,7 @@ textarea {
 .text-panel-rounded {
   height: 40vh;
   border-bottom-right-radius: 300px;
+  border-top-right-radius: 300px;
   padding-left: clamp(220px, 18vw, 700px);
   text-align: left;
   overflow-wrap: break-word;

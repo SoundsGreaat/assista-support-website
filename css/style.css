@@ -520,7 +520,7 @@ textarea {
     display: none;
   }
   .full-rectangle-top {
-    background-color: #f4f7fb;
+    background: none;
   }
 }
 

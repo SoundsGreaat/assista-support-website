@@ -17,6 +17,11 @@ html {
   line-height: 1.4;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -50,7 +55,7 @@ hr {
 body {
   background-color: #f3f6fa;
   font-family: 'GoogleInter', sans-serif;
-  padding-top: 70px;
+  padding-top: 130px;
 }
 
 /*
@@ -488,7 +493,8 @@ textarea {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 70vh;
+  height: 100%;
+  background-color: #ffffff;
 }
 
 .image-panel img {
@@ -513,16 +519,8 @@ textarea {
   .image-panel-fixed {
     display: none;
   }
-
   .full-rectangle-top {
-    flex-direction: column;
-  }
-
-  .text-panel-rounded {
-    padding-left: 20px;
-    padding-right: 20px;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
+    background-color: #f4f7fb;
   }
 }
 
@@ -568,7 +566,7 @@ textarea {
 .text-panel-rounded {
   height: 40vh;
   border-bottom-right-radius: 300px;
-  border-top-right-radius: 300px;
+  border-top-right-radius: 150px;
   padding-left: clamp(220px, 18vw, 700px);
   text-align: left;
   overflow-wrap: break-word;
